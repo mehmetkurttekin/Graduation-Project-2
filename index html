@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Imagination Chat Bot</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="/img1.jpg" type="image/jpeg">
+</head>
+<body>
+  <header>
+    <h1>Imagination Chat Bot</h1>
+  </header>
+  <button onclick="location.href='categories.html'" id="ct1">Categories</button>
+  <div class="container" id="container">
+    <div class="chat-window">
+      <div class="chat-header">
+       <div class="renk"> <h2>Hello! Welcome to Imagination. Do you want to create a story?</h2></div>
+        <img class="profile-img" src="img1.jpg" alt="Profile Image">
+      </div>
+      <div class="chat-body">
+        <div class="incoming-message">
+          <img class="profile-img" src="img2.jpg" alt="Profile Image">
+          <div class="renk2"><p class="message"></p></div>
+        </div>
+      </div>
+      <p id="output"></p>
+      <div class="chat-footer">
+        <textarea class="message-input" placeholder="Type your message..." id="input"></textarea>
+        <button class="send-btn" id="submit">➢</button>
+        <button class="send-btn" onclick="openEmojiPicker()">😊</button>
+      </div>
+    </div>
+    <p class="credit">
+        created by <span>Imagination</span> | ©Copyright
+    </p>
+  </div>
+  <script src="/main.js"></script>
+  <script>
+      function openEmojiPicker() {
+    window.open('https://www.emojicopy.com/', '_blank', 'width=600,height=600');
+  }
+    </script>
+</body>
+
+</html>

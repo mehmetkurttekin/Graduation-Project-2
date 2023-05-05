@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Categories</title>
+	<link rel="stylesheet" href="categories.css">
+</head>
+<body>
+	<header>
+		<h1>Categories</h1>
+    <img src="img1.jpg" alt="LOGO" id="logo">
+	</header>
+
+	<nav>
+		<ul>
+			<li><a href="index.html">ChatBot</a></li>
+			<li><a href="#adventure">Adventure</a></li>
+			<li><a href="#fantastic">Fantastic</a></li>
+			<li><a href="#animals">Animals</a></li>
+			<li><a href="#friendship">Friendship</a></li>
+			<li><a href="#science">Science</a></li>
+		</ul>
+	</nav>
+
+	<main>
+		<section class="category" id="adventure">
+			<h2>Adventure</h2>
+			<p>This category contains stories full of adventure and excitement!</p>
+      <div class="story">
+        <h3>The Great Adventure</h3>
+        <p>Ali and Ayşe had made a plan for their summer vacation from school. This year, they wanted to visit many different places. Their first stop was the Great Ancient Cave. When they arrived at the cave, it looked dark and scary. But their adventurous spirits pulled them in. As soon as they entered, they noticed the lights flickering on and off. The cave had many secrets, and Ali and Ayşe were excited to explore them. Just as they were heading deeper into the cave, a door opened and they got lost inside. Now, these two adventurers who seem to be lost need to find their way out of the cave.</p>
+      </div>
+		</section>
+
+		<section class="category" id="fantastic">
+			<h2>Fantastic</h2>
+			<p>This category contains stories with fantastic elements!</p>
+      <div class="story">
+        <h3>Magical Forest</h3>
+        <p>Once upon a time, there was a magical forest. The forest was filled with giant trees and colorful flowers, but all the creatures living in this forest had very special powers. Humans couldn't enter the forest, but a little girl named Ela managed to get inside this magical place. As she wandered through the forest, she saw all the beauty it had to offer and met all the magical creatures that lived there. However, one day, the order of the magical forest was disrupted when the forest's protector, a great dragon, disappeared. All the creatures living in the forest were filled with worry. Ela went back into the forest to find the dragon. The adventurous little girl used all her powers and even went into the darkest corners of the forest to find the dragon. Finally, Ela found the dragon and brought it back to the forest. All the creatures living in the forest welcomed the dragon with great joy, and the magical order was restored once again.</p>
+      </div>
+		</section>
+
+		<section class="category" id="animals">
+			<h2>Animals</h2>
+			<p>This category contains stories about animals!</p>
+		</section>
+
+		<section class="category" id="friendship">
+			<h2>Friendship</h2>
+			<p>This category contains stories about friendship and companionship!</p>
+		</section>
+
+		<section class="category" id="science">
+			<h2>Science</h2>
+			<p>This category contains stories about science and discoveries!</p>
+		</section>
+	</main>
+</body>
+</html>

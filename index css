@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+    body {
+      background-image: url("background\ image.jpg");
+      background-repeat: no-repeat; /* Tekrar etmesini engeller */
+      background-position: center center; /* Orta konumda yerleştirir */
+      background-size: cover; /* Resmi tam olarak kaplar */
+    }
+
+  
+  header {
+    background-color: #F3B24A;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    font-family: Comic Sans MS;
+  }
+  
+  .container {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .chat-window {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #ccc;
+    overflow: hidden;
+  }
+  
+  .chat-header {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .chat-header img {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-right: 5px;
+    margin-left: 90px;
+  }
+  
+  .chat-header h2 {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  
+  .chat-body {
+    padding: 20px;
+    height: 650px;
+    overflow-y: scroll;
+  }
+  .incoming-message,
+  .outgoing-message {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .incoming-message img,
+  .outgoing-message img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5px;
+  }
+  
+  .message {
+    background-color: #eee;
+    border-radius: 20px;
+    padding: 10px 15px;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .incoming-message .message {
+    background-color: #fff;
+  }
+  
+  .chat-footer {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #eee;
+  }
+  
+  .message-input {
+    flex-grow: 1;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #eee;
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  
+  .send-btn {
+    padding: 10px 25px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.7s ease;
+    margin: 5px;
+  }
+  
+  .send-btn:hover {
+    background-color: #F3B24A;
+  }
+  
+  .credit{
+    text-align: center;
+    margin-top: 15px;
+  }
+
+  span{
+    color: #F3B24A;
+  }

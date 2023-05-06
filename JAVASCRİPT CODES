@@ -27,7 +27,7 @@ sendBtn.addEventListener('click', function() {
   sendMessage();
 });
 
-const API_KEY = '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'
+const API_KEY = ''
 const submitButton = document.querySelector("#submit")
 const outPutElement = document.querySelector("#output")
 const inputElement = document.querySelector("#input")
